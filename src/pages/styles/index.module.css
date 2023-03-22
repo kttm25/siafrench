@@ -1,0 +1,167 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+/* @media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+} */
+
+
+
+/* First section start*/
+span {
+  color: #20EE82;
+}
+
+.home_header {
+  height: 512px;
+  display: flex;
+  justify-content: center;
+  gap: 65px;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.home_text {
+  width: 459px;
+  height: 334px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.home_text h1 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  color: #7F8C8D;
+}
+
+.home_text button {
+  width: 255px;
+  height: 64px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #455A64;
+  background-color: #20EE82;
+  border: none;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 700px) {
+  .home_header {
+    flex-direction: column;
+    padding:2rem;
+    height: 100%;
+  }
+
+  .home_text {
+    width: auto;
+    padding-top: 4rem;
+    align-items: center;
+  }
+  .home_text h1 {
+    text-align: center;
+  }
+}
+/* First section end*/
+
+/* Second section start */
+
+.home_section2{
+  height: 534px;
+  background-color: #D9D9D9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.section2_text{
+  width: 459px;
+height: 343px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.section2_text h1{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  color: #455A64;
+}
+
+@media screen and (max-width: 700px) {
+  .home_section2{
+    flex-direction: column;
+    gap: 90px;
+  height: 100%;
+  padding:3rem 2rem 5rem 2rem ;
+  }
+
+  .section2_text{
+    width: auto;
+    text-align: center;
+  }
+}
+/* Second section end */
+
+
+/* Third section start */
+.home_section3{
+  height: 538px;
+  display: flex;
+  justify-content: center;
+  gap: 65px;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media screen and (max-width: 700px) {
+  .home_section3{
+    height: 100px;
+    flex-direction: column;
+    gap: 130px;
+  height: 100%;
+  padding:2rem ;
+  }
+}
+/* Third section end */
+
+/* Fourth section start */
+
+.home_section4{
+  height: 650px;
+  background-color: #D9D9D9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media screen and (max-width: 700px) {
+  .home_section4{
+    flex-direction: column;
+    gap: 90px;
+  height: 100%;
+  padding:5rem 2rem 5rem 2rem ;
+  }
+}
+/* Fourth section end */
